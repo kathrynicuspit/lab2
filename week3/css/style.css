@@ -84,6 +84,7 @@ h4{
 	letter-spacing: 2px;
 	font-size: 20px;
 	margin-top: 20px;
+	text-align: justify;
 }
 
 h6{
@@ -115,4 +116,4 @@ h6{
 	 border: 30px;
  }
  */
-/*CSS Lesson 8.1 - Text Color - Already Applied Above*/
+/*CSS Lesson 8.2 - Text Alignment - Applied*/
