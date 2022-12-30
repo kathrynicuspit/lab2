@@ -12,6 +12,7 @@
 	background-repeat: repeat;
 	background-size: cover;
 	background-position: center;
+	background-attachment: scroll;
 }
 nav{
 	display: flex;
@@ -115,4 +116,4 @@ h6{
  }
  */
 
-/*CSS Lesson 3.3 - Background Repeat - Already Applied Above*/
+/*CSS Lesson 3.4 - Background Attachment - Applied*/
