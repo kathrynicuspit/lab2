@@ -84,13 +84,15 @@ h4{
 	letter-spacing: 2px;
 	font-size: 20px;
 	margin-top: 20px;
-	text-align: justify;
+	text-decoration-style: wavy;
+
 }
 
 h6{
 	color: white;
 	letter-spacing: 0.5px;
 	font-size: 12px;
+	text-align: justify;
 }
 
  #container{
@@ -116,4 +118,4 @@ h6{
 	 border: 30px;
  }
  */
-/*CSS Lesson 8.2 - Text Alignment - Applied*/
+/*CSS Lesson 8.3 - Text Decoration - Applied*/
