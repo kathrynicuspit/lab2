@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Blank canvas</title>
+	<title>Personal Profile</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	
 	<link rel="preconnect" href="https://fonts.gstatic.com">
@@ -15,7 +15,11 @@
 	
 
 </head>
-
+<script>
+	function myFunction() {
+	document.getElementById("demo").innerHTML = "Kathryn has an ENFP (Extraverted-Intuitive-Feeling-Perceiving) personality type. She likes spontaneity, new ideas and adventures and struggles being organized and sticking to a routine. She loves Jesus, helping and encouraging people, music and her two mini-poodles. She lives by the verse Isaiah 26:3. <br> <br> ~ Life is good, eternal life is better~ ";
+	}
+</script>
   
 
 <body>
@@ -67,23 +71,21 @@
 			<div class="about-text">
 			<h2>About Me</h2>
 			<h5>Isang Jumbo Hatdog</h5>
-			<p>A 20-year old College student at APC pursuing the course Bachelor of Science in Information
+			<p id="demo">A 20-year old College student at APC pursuing the course Bachelor of Science in Information
 				Technology specializing in Mobile and Internet Technologies. Now on her 2nd year and 2nd term in school, 
 				she strives to be an excellent web designer and programmer as she is enrolled in Web Programming Class under 
 				Prof. Jose Eugenio Quesada. On her free time, she likes to eat, watch anime, read manhwas and play with her dog.</p>
-			<button type="button">Let's Talk</button>
+			<button type="button"  onclick="myFunction()">Click me</button>
 			</div>
 		</div>
 	
 	</section>
 
-<!-- Import NivoSlider JS LIbrary -->
-  <script src="js/vendor/jquery.min.1.10.2.js"></script>
-  <script src="js/vendor/nivo-slider/jquery.nivo.slider.js">
-
 
 </body>
 
 </html>
+
+	
 
 	
