@@ -1,4 +1,3 @@
-<!--Eto yung icopy paste sa index.html sa GITHUB-->
 <!DOCTYPE html>
 <html>
 <head>
@@ -216,7 +215,7 @@
 	<h2>JavaScript Map Objects</h2>
 		<p>Using Map.set():</p>
 
-		<p id="demo"></p>
+		<p id="demo2"></p>
 
 		<script>
 		// Create a Map
@@ -227,20 +226,37 @@
 		fruits.set("bananas", 300);
 		fruits.set("oranges", 200);
 
-		document.getElementById("demo").innerHTML = fruits.get("apples");
+		document.getElementById("demo2").innerHTML = fruits.get("apples");
 </script>
 
-<h1>JavaScript Modules</h1>
+	<h1>JavaScript Modules</h1>
 
-<p id="demo"></p>
+	<p id="demo2"></p>
 
-<script type="module">
-import message from "./message.js";
+	<script type="module">
+	import message from "./message.js";
 
-document.getElementById("demo").innerHTML = message();
+	document.getElementById("demo2").innerHTML = message();
 
+	</script>
+
+
+<h2>Object from JSON String</h2>
+
+<p id="demo4"></p>
+
+<script>
+let text = '{"family":[' +
+'{"firstName":"Mary","lastName":"Icuspit" },' +
+'{"firstName":"Clinton","lastName":"Icuspit" },' +
+'{"firstName":"Kristelle","lastName":"Valmonte" }]}';
+'{"firstName":"Christian","lastName":"Icuspit" }]}';
+
+
+const obj = JSON.parse(text);
+document.getElementById("demo4").innerHTML =
+obj.family[1].firstName + " " + obj.family[1].lastName;
 </script>
-
 
 	
 	</div>
@@ -274,3 +290,5 @@ document.getElementById("demo").innerHTML = message();
 </body>
 
 </html>
+
+	
