@@ -258,7 +258,25 @@ document.getElementById("demo4").innerHTML =
 obj.family[1].firstName + " " + obj.family[1].lastName;
 </script>
 
-	
+
+<p id="demo5"></p>
+
+<script>
+function myDisplayer(some) {
+  document.getElementById("demo5").innerHTML = some;
+}
+
+function myFirst() {
+  myDisplayer("Hello, website is under maintainance");
+}
+
+function mySecond() {
+  myDisplayer("Please be patient!");
+}
+
+myFirst();
+mySecond();
+</script>
 	</div>
 				
 <div id="disqus_thread"></div>
