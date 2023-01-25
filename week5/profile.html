@@ -1,3 +1,4 @@
+<!--Eto yung icopy paste sa index.html sa GITHUB-->
 <!DOCTYPE html>
 <html>
 <head>
@@ -166,8 +167,18 @@
 				
 	<div class="card">
 				<i class="far fa-bell"></i>
-				<h5>Web Development</h5>
+				<h5>Modules</h5>
 				<div class="pra">
+				
+				<p id="demo"></p>
+
+			<script type="module">
+			import message from "./message.js";
+
+			document.getElementById("demo").innerHTML = message();
+
+			</script>
+
 					<!--
 				<p>When you see love, leave a mark, heallin' broken hearts. You see chains fall apart, you see hope rise from the darkIt's so much more than ordinary, it's nothing less than extraordinary.It's the fingerprints of God.</p>
 				
@@ -192,14 +203,15 @@
 
 		<script>
 		const myObject = {
-		  firstName:"John",
-		  lastName: "Doe",
+		  firstName:"Kathryn",
+		  lastName: "Icuspit",
 		  fullName: function() {
 			return this.firstName + " " + this.lastName;
 		  }
 		}
 		document.getElementById("demo").innerHTML = myObject.fullName();
 </script>
+
 
 	<h2>JavaScript Map Objects</h2>
 		<p>Using Map.set():</p>
@@ -218,6 +230,16 @@
 		document.getElementById("demo").innerHTML = fruits.get("apples");
 </script>
 
+<h1>JavaScript Modules</h1>
+
+<p id="demo"></p>
+
+<script type="module">
+import message from "./message.js";
+
+document.getElementById("demo").innerHTML = message();
+
+</script>
 
 
 	
@@ -252,8 +274,3 @@
 </body>
 
 </html>
-
-	
-
-
-	
