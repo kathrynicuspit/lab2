@@ -81,7 +81,7 @@
 				<input type="submit" value="Submit" class="send">
 		</form>
 			
-        <?php include 'form.php'; ?>
+        <?php include 'forms.php'; ?>
 
 		</div>
 	</section>
