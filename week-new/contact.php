@@ -42,40 +42,51 @@
 				<li><a href="https://github.com/kathrynicuspit" class="btn" target="_blank"><img src="img/gitbtn.png" width="35px" height="35px"></a></li>
 				<li><a href="https://www.facebook.com/kathryn.chaaan/" class="btn" target="_blank"><img src="img/fbbtn.png" width="35px" height="35px"></a></li>
 				<li><a href="https://www.linkedin.com/in/kathryn-ann-icuspit-75659121a/" class="btn" target="_blank"><img src="img/lkdinbtn.png" width="35px" height="35px"></a></li>
-			</ul>
-		</header>
+		</ul>
+</header>
 	
 	<!---contact--->
 	
 	
 	<section class="contact" id="contact" data-sr-id="4" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 2.5s cubic-bezier(0.5, 0, 0, 1) 0.2s, transform 2.5s cubic-bezier(0.5, 0, 0, 1) 0.2s;">
 		<div class="contact-text">
-		
-	
+		<!--
+			<h2>Contact Me</h2>
+			<h4>AAAAAAA</h4>
+			<p>Let me hear you say aw aw</p>
+			<div class="contact-list">
+				<li><a href="#">Megumi Kato </a></li>
+				<li><a href="#">kbicuspit@gmail.com</a></li>
+				<li><a href="#">09164350616</a></li>
+			</div>
+			-->
 			<h2> Contact Me </h2>
 			<br>
-		
+			<!--
+			<div class="contact-icons">
+				<a href="#"><i class='bx bxl-twitter' ></i></a>
+				<a href="#"><i class='bx bxl-facebook' ></i></a>
+				<a href="#"><i class='bx bxl-instagram' ></i></a>
+			</div>
+			-->
 		</div>
 		
 		
 		<div class="contact-form">
-		<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>				
+		<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>"> 				
 			<input type="text" name="name" placeholder="Your Name" required>
             <input type="email" name="email" placeholder="Your Email" required>
             <input type="website" name="website" placeholder="Your Website">
             <textarea name="comment" rows="6" placeholder="Your Message"></textarea>
 				<input type="submit" value="Submit" class="send">
 		</form>
-		
+			
+        <?php include 'form.php'; ?>
 
-            <?php include 'form.php'; ?>
 		</div>
 	</section>
 	
-		</div>
 	
 </body>
 
 </html>
-
-	
