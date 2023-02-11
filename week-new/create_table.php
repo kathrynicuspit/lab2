@@ -18,7 +18,7 @@ name VARCHAR(30) NOT NULL,
 email VARCHAR(30) NOT NULL,
 website VARCHAR(50),
 comment VARCHAR(255),
-)";
+);
 
 if (mysqli_query($conn, $sql)) {
   echo "Table kbicuspit_myguests created successfully";
